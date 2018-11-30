@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Welcome to Car Dealer Inc.  On this site, you will find both used and new cars for sale."> 
+  <meta name="og:title" property="og:title" content="Car Deal Inc.">
+  <meta property="og:type" content="website" />
+  <title>Car Deal Inc.</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+<!-- header of the page -->
+  <header>
+    <!-- header navigation section -->
+    <div class="header-nav">
+      <h1>Test</h1>
+
+      <!-- div and spans to create hamburger menu -->
+      <div id="nav-icon1" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- end of hamburger menu -->
+
+      <nav class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- login button -->
+        <button class="login">Login</button>
+        <!-- search input -->
+        <input type="text" placeholder="&#xF002;" style="font-family:Arial, FontAwesome" aria-label="Search site content">
+      </nav>
+    </div>
+    <!-- header hero image -->
+    <div class="header-hero">
+      <img src="assets/header-image.png" alt="A red BMW X4 driving down a road in the desert">
+    </div>
+  </header>
+<!-- end of the header section -->
+
+<!-- main section of the page -->
+  <main>
+    <!-- vehicle search form section of the page -->
+    <section class="form">
+      <div class="main-wrapper">
+        <form>
+          <div class="form-column column-one">
+            <select name="Select"><option value="">Select Make</option></select>
+            <select name="Registration"><option value="">First Registration</option></select>
+            <select name="Price"><option value="">Max Price</option></select>
+          </div>
+          <div class="form-column column-two">
+            <select name="Make"><option value="">Select make first</option></select>
+            <select name="Mileage"><option value="">Max Mileage</option></select>
+            <input type="submit" value="Show Results">
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- vehicle search results -->
+    <section class="search-results">
+      <div class="main-wrapper">
+      <!-- display options for search results -->
+        <div class="display-options">
+          <i class="fas fa-th"></i>
+          <i class="fas fa-bars"></i>
+          <select name="Price"><option value="">Price (low-high)</option></select>
+        </div>
+        <!-- vehicle search results -->
+        <div class="vehicle-results">
+          <!-- vehicle one -->
+          <div class="vehicle">
+            <img src="assets/car-one.png" alt="A red Volkswagen Golf 2.5L">
+            <div class="vehicle-info">
+              <h3>Volkswagen Golf 2.5L</h3>
+              <div class="car-specs">
+                <div class="icons">
+                  <i class="far fa-calendar-alt" aria-label="date"></i>
+                  <i class="fas fa-tachometer-alt" aria-label="speed"></i>
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="info">
+                  <p>07-2015</p>
+                  <p>30,000 miles</p>
+                  <p>130 kw (175 hp)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- vehicle two -->
+          <div class="vehicle">
+            <img src="assets/car-two.png" alt="A blue Subaru WRX">
+            <div class="vehicle-info">
+              <h3>Subaru WRX</h3>
+              <div class="car-specs">
+                <div class="icons">
+                  <i class="far fa-calendar-alt" aria-label="date"></i>
+                  <i class="fas fa-tachometer-alt" aria-label="speed"></i>
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="info">
+                  <p>01-2016</p>
+                  <p>10,000 miles</p>
+                  <p>250 kw (335 hp)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- vehicle three -->
+          <div class="vehicle">
+            <img src="assets/car-three.png" alt=" A white Infinity Q50">
+            <div class="vehicle-info">
+              <h3>Infinity Q50</h3>
+              <div class="car-specs">
+                <div class="icons">
+                  <i class="far fa-calendar-alt" aria-label="date"></i>
+                  <i class="fas fa-tachometer-alt" aria-label="speed"></i>
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="info">
+                  <p>05-2016</p>
+                  <p>0 miles</p>
+                  <p>190 kw (255 hp)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- vehicle four -->
+          <div class="vehicle">
+            <img src="assets/car-four.png" alt="A black Mercedez Benz ML">
+            <div class="vehicle-info">
+              <h3>Mercedes Benz ML (All Wheel Drive)</h3>
+              <div class="car-specs">
+                <div class="icons">
+                  <i class="far fa-calendar-alt" aria-label="date"></i>
+                  <i class="fas fa-tachometer-alt" aria-label="speed"></i>
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="info">
+                  <p>09-2014</p>
+                  <p>75,000 miles</p>
+                  <p>210 kw (282 hp)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- vehicle five -->
+          <div class="vehicle">
+            <img src="assets/car-five.png" alt="A tan Volvo V40 Cross Country">
+            <div class="vehicle-info">
+              <h3>Volvo V40 Cross Country</h3>
+              <div class="car-specs">
+                <div class="icons">
+                  <i class="far fa-calendar-alt" aria-label="date"></i>
+                  <i class="fas fa-tachometer-alt" aria-label="speed"></i>
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="info">
+                  <p>05-2016</p>
+                  <p>0 miles</p>
+                  <p>110 kw (150 hp)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- vehicle six -->
+          <div class="vehicle">
+            <img src="assets/car-six.png" alt="A red Audi TT RS">
+            <div class="vehicle-info">
+              <h3>Audi TT RS</h3>
+              <div class="car-specs">
+                <div class="icons">
+                  <i class="far fa-calendar-alt" aria-label="date"></i>
+                  <i class="fas fa-tachometer-alt" aria-label="speed"></i>
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="info">
+                  <p>03-2016</p>
+                  <p>10,000 miles</p>
+                  <p>185 kw (248 hp)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- search result page numbers -->
+        <div class="page-numbers">
+          <p>1</p>
+          <p>2</p>
+          <p><i class="fas fa-long-arrow-alt-right" aria-label="next page arrow"></i></p>
+        </div>
+        </div>
+    </section>
+    <!-- statistics section of the page -->
+    <section class="statistics">
+      <div class="stat">
+        <h3>25</h3>
+        <p>Years In Business</p>
+      </div>
+      <div class="stat">
+        <h3>1,000+</h3>
+        <p>Cars Sold</p>
+      </div>
+      <div class="stat">
+        <h3>98%</h3>
+        <p>Customer Satisfaction</p>
+      </div>
+      <div class="stat">
+        <h3>10,000+</h3>
+        <p>Registered Users</p>
+      </div>
+    </section>
+    <!-- car blog section -->
+    <section class="car-news">
+      <h2>Latest Car News</h2>
+      <div class="blog-posts">
+        <div class="post">
+          <div class="post-image">
+            <img src="assets/car-seven.png" alt="a white racing car with two blue stripes">
+          </div>
+          <div class="post-content">
+            <h4>50 years of pony-car style</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam asperiores iure dolor sit ...</p>
+            <div class="blogger">
+              <img src="assets/blogger.jpg" alt="headshot of Kandace O'Brien, the blogger for the posts">
+              <p>by Kandace O'Brien</p>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-image">
+            <img src="assets/car-eight.png" alt="a yellow racing car with three red and blue stripes">
+          </div>
+          <div class="post-content">
+            <h4>Because 600 hp is not enough</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam asperiores iure dolor sit ...</p>
+            <div class="blogger">
+              <img src="assets/blogger.jpg" alt="headshot of Kandace O'Brien, the blogger for the posts">
+              <p>by Kandace O'Brien</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>Submit Your Vehicle <i class="fas fa-long-arrow-alt-right" aria-label="next page arrow"></i></button>
+    </section>
+  </main>
+<!-- end of main section of the page -->
+
+<!-- footer of the page -->
+<footer>
+  <!-- top portion of the footer -->
+  <div class="footer-top">
+    <!-- contact info section -->
+    <section class="contact-info">
+      <h3>Car Dealer Inc.</h3>
+      <address>
+        <p>Address: 1 Fantasy Road, 10100 Car Haven, USA</p>
+      </address>
+      <p>Phone: 0800 555 123 456</p>
+      <p>Email: info@yourcompany.com</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter" aria-label="twitter"></i></a>
+        <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g" aria-label="google plus"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in" aria-label="linkedin"></i></a>
+      </div>
+    </section>
+    <!-- opening hours section -->
+    <section class="opening-hours">
+      <h3>Opening Hours</h3>
+      <div class="hours">
+        <ul class="column column-one">
+          <li>Monday</li>
+          <li>Tuesday</li>
+          <li>Wednesday</li>
+          <li>Thursday</li>
+          <li>Friday</li>
+          <li>Saturday</li>
+          <li>Sunday</li>
+        </ul>
+        <ul class="column column-two">
+          <li>9:00 - 18:00</li>
+          <li>9:00 - 18:00</li>
+          <li>9:00 - 18:00</li>
+          <li>9:00 - 18:00</li>
+          <li>9:00 - 18:00</li>
+          <li>9:00 - 18:00</li>
+          <li>closed</li>
+        </ul>
+      </div>
+    </section>
+    <!-- subscribe section -->
+    <section class="subscribe">
+      <h3>Get the best deals first</h3>
+      <div class="email-subscribe">
+        <input type="email" name="email" class="email" id="email" placeholder="Your email address .." aria-label="Email Address">
+        <input type="submit" value="Subscribe" id="submit" name="submit" class="submit" aria-label="Submit Button">
+      </div>
+      <p>No worries. We don't spam, promise.</p>
+    </section>
+  </div>
+  <!-- bottom portion of the footer -->
+  <div class="footer-bottom">
+    <p>Copyright &copy; 2016 Car Deal Inc.</p>
+  </div>
+</footer>
+<!-- end of footer of the page -->
+
+
+
+ <!-- javascript imports -->
+  
+ <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+ <script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
